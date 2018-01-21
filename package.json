@@ -1,0 +1,47 @@
+{
+  "name": "@modernistik/hyperdrive",
+  "version": "0.2.0",
+  "description": "Modernistik App Server",
+  "main": "lib/index.js",
+  "license": "ISC",
+  "scripts": {
+    "start": "./bin/hyperdrive -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/modernistik/hyperdrive"
+  },
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "bin": {
+    "hyperdrive": "./bin/hyperdrive"
+  },
+  "dependencies": {
+    "dotenv": "^4",
+    "commander": "^2",
+    "aws-sdk": "^2",
+    "body-parser": "^1",
+    "cluster": "^0",
+    "express": "^4",
+    "lodash": "^4",
+    "parse": "^1",
+    "colors": "^1",
+    "@parse/push-adapter": "*",
+    "parse-server": "^2",
+    "parse-dashboard": "^1",
+    "parse-server-amazon-ses-adapter": "*",
+    "@parse/simple-mailgun-adapter": "^1",
+    "parse-server-mailgun": "^2",
+    "parse-server-sns-adapter": "*"
+  },
+  "engines": {
+    "node": ">= 8"
+  },
+  "author": {
+    "name": "Anthony Persaud",
+    "email": "persaud@modernistik.com",
+    "url": "https://www.modernistik.com/"
+  }
+}

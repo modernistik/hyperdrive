@@ -1,0 +1,48 @@
+{
+  "name": "Modernistik Hyperdrive",
+  "description": "Modernistik enhancements to Parse Platform server to build quickly and at scale.",
+  "repository": "https://github.com/modernistik/hyperdrive",
+  "website": "https://www.modernistik.com/",
+  "logo": "https://avatars2.githubusercontent.com/u/3671757?v=3&s=200",
+  "keywords": ["modernistik", "node", "express", "parse-server","hyperdrive"],
+  "env": {
+    "HEROKU_APP_NAME": {
+      "description": "The Heroku App name."
+    },
+    "PARSE_SERVER_APPLICATION_ID": {
+      "description": "The Parse Server Application ID.",
+      "generator": "secret"
+    },
+    "PARSE_SERVER_MASTER_KEY": {
+      "description": "The Parse Server Master Key.",
+      "generator": "secret"
+    },
+    "PARSE_SERVER_REST_API_KEY": {
+      "description": "The key for REST clients to use.",
+      "generator": "secret"
+    },
+    "PARSE_SERVER_CLIENT_KEY": {
+      "description": "The key for mobile clients to use.",
+      "generator": "secret"
+    },
+    "PARSE_SERVER_JAVASCRIPT_KEY": {
+      "description": "The key for web clients to use.",
+      "generator": "secret"
+    },
+    "PARSE_SERVER_WEBHOOK_KEY": {
+      "description": "The key to use when authenticating cloud code webhook requests.",
+      "generator": "secret"
+    },
+    "DASHBOARD_USER": {
+      "value": "admin",
+      "description": "The username to login to the dashboard."
+    },
+    "DASHBOARD_PASSWORD": {
+      "value": "admin",
+      "description": "The password to login to the dashboard."
+    }
+  },
+  "image": "heroku/nodejs",
+  "addons": ["mongolab", "heroku-redis", "mailgun"],
+  "success_url": "/dashboard"
+}

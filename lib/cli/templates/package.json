@@ -1,0 +1,13 @@
+{
+  "name": "hyperdrive-app",
+  "version": "1.0.0",
+  "description": "Hyperdrive App",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@modernistik/hyperdrive": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "hyperdrive -c config.js"
+  }
+}
