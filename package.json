@@ -1,6 +1,6 @@
 {
   "name": "@modernistik/hyperdrive",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Modernistik App Server",
   "main": "lib/index.js",
   "license": "ISC",
