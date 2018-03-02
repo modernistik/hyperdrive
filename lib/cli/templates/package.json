@@ -3,11 +3,19 @@
   "version": "1.0.0",
   "description": "Hyperdrive App",
   "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/app"
+  },
   "dependencies": {
     "@modernistik/hyperdrive": "*"
   },
   "devDependencies": {},
   "scripts": {
     "start": "hyperdrive -c config.js"
+  },
+  "engines": {
+    "node": ">= 8",
+    "npm": ">= 5.7"
   }
 }
