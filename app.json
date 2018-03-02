@@ -3,7 +3,7 @@
   "description": "Modernistik enhancements to Parse Platform server to build quickly and at scale.",
   "repository": "https://github.com/modernistik/hyperdrive",
   "website": "https://www.modernistik.com/",
-  "logo": "https://avatars2.githubusercontent.com/u/3671757?v=3&s=200",
+  "logo": "https://modernistik.s3.amazonaws.com/logo.png",
   "keywords": ["modernistik", "node", "express", "parse-server","hyperdrive"],
   "env": {
     "HEROKU_APP_NAME": {
