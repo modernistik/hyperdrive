@@ -1,3 +1,6 @@
+# To publish package @modernistik/hyperdrive
+# Login with a scope name `npm login --scope=@modernistik`
+# Next, publish with access public: `npm publish --access public`
 # Logs
 logs
 test_logs

@@ -2,6 +2,7 @@
 
 ### 0.2.3
 * Exposes REDIS_URL in config api.
+* Fixes cli load path.
 
 ### 0.2.2
 * Supports generating all keys with the option '--keys'

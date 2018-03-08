@@ -358,4 +358,4 @@ end
 You may configure the mount path of incoming webhooks by setting the `INCOMING_MOUNT` environment variable (ex. `/incoming`). In production, it is recommended to change this to a different unique and possibly random string. Set `INCOMING_MOUNT` to `-` to disable this feature.
 
 ## Copyright and License
-Copyright (C) 2013 Modernistik LLC (https://www.modernistik.com).
+Copyright (C) 2013 Modernistik LLC (https://www.modernistik.com). Requires agreement for commercial use.
