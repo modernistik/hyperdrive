@@ -82,3 +82,4 @@ build/Release
 .env
 # Heroku Fast Launch
 app.json
+GettingStarted.md
