@@ -1,5 +1,8 @@
 ## Modernistik Hyperdrive Changelog
 
+### 0.2.6
+* Documenation changes.
+
 ### 0.2.3
 * Exposes REDIS_URL in config api.
 * Fixes cli load path.

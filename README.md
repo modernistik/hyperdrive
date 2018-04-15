@@ -56,4 +56,4 @@ $ hyperdrive --info databaseURI
 ```
 
 ## Copyright and License
-Copyright (C) 2013 Modernistik LLC (https://www.modernistik.com). Requires agreement for commercial use.
+Copyright (C) 2018 Modernistik LLC (https://www.modernistik.com). Requires agreement for commercial use.
