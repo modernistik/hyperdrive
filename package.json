@@ -1,9 +1,9 @@
 {
   "name": "@modernistik/hyperdrive",
-  "version": "0.2.4",
+  "version": "0.2.6",
   "description": "Modernistik App Server",
   "main": "lib/index.js",
-  "license": "ISC",
+  "license": "SEE LICENSE IN LICENSE",
   "scripts": {
     "start": "./bin/hyperdrive -s"
   },
